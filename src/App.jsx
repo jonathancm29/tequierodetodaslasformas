@@ -5,6 +5,7 @@ import MusicPlayer from './components/MusicPlayer';
 import WeatherSections from './components/WeatherSections';
 import Login from './components/Login';
 import StarMap from './components/StarMap';
+import SweetSection from './components/SweetSection';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 
 // ------------------------------------------------------------------
@@ -115,6 +116,8 @@ function App() {
             </div>
           </motion.div>
         </section>
+
+        <SweetSection />
 
         {/* New Weather Sections */}
         <WeatherSections />
