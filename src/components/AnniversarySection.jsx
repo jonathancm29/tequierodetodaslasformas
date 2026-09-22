@@ -492,8 +492,8 @@ const LoveLetter = () => {
                   Quiero pedirte perdon por ser tan frio estos ultimos dias, por no demostrarte 
                   lo que siento pot ti en ocasiones o cuando tu lo esperas, mi cabeza por mementos aun
                   es un caos, pero quiero que sepas que te amo con todo mi
-                  corazon y estoy en una lucha costante por ser mejor, te amo por amarme 
-                  aun conociendo mis defectos y mis errores.
+                  corazon y estoy en una lucha costante por ser mejor, Te amo mi vida!
+                   Gracias por amarme aun conociendo mis defectos y mis errores.
                 </p>
               </div>
 
