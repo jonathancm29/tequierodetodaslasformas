@@ -6,6 +6,7 @@ import WeatherSections from './components/WeatherSections';
 import Login from './components/Login';
 import StarMap from './components/StarMap';
 import SweetSection from './components/SweetSection';
+import AnniversarySection from './components/AnniversarySection';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 
 // ------------------------------------------------------------------
@@ -45,6 +46,14 @@ const LOCATIONS = [
     title: "Tu Hogar 🏡 (Manizales)",
     description: "La ciudad donde vive mi corazón.",
     emoji: "👸🏻"
+  },
+  {
+    id: 'mexico',
+    lat: 19.4326,
+    lng: -99.1332,
+    title: "Nuestro Primer Viaje 🇲🇽 (México)",
+    description: "Junio 2026 — Donde la aventura juntos cruzó fronteras.",
+    emoji: "🇲🇽"
   }
 ];
 
@@ -89,6 +98,9 @@ function App() {
         <Background scrollYProgress={scrollYProgress} />
         
         <main className="relative z-10 flex flex-col items-center justify-center min-h-screen w-full pb-20">
+          {/* Sección de 1er Aniversario y Amor y Amistad (Lo primero que se ve) */}
+          <AnniversarySection />
+
           <section className="w-full min-h-screen flex flex-col items-center justify-center p-4 snap-start">
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
